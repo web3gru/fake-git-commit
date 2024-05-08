@@ -2,6 +2,7 @@ import subprocess
 import os
 from dotenv import load_dotenv
 
+# Main function
 def run_command(command):
     """
     Execute a given shell command using subprocess and handle output.
